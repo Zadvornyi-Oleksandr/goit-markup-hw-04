@@ -7,7 +7,6 @@ body {
 ul,
 ol {
   list-style-type: none;
-  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -27,32 +26,24 @@ a {
 /*Загальны стилі*/
 .container {
   max-width: 1158px;
-  padding: 0px 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 /*header*/
-header {
-  background: #fff;
-  line-height: 1.17;
-  margin: 0 auto;
-}
 
 img {
   display: block;
 }
 
-section {
+.section {
   padding: 120px 0;
-  border-top: none;
 }
 
 .padge-header {
-  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
-  margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -124,27 +115,14 @@ section {
 }
 /*------section1"hero"---------------------*/
 .hero {
-  padding: 0px 15px;
-  margin: 0 auto;
   padding: 188px 0;
   background: #2e2f42;
 }
 
-.hero-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  padding: 188px 472px;
-}
-
 .hero-title {
+  margin: 0 auto;
+  margin-bottom: 48px;
   max-width: 496px;
-  width: 472px;
-  height: 278px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -154,6 +132,8 @@ section {
 }
 
 .hero-btn {
+  margin: 0 auto;
+  display: block;
   border-radius: 4px;
   border: none;
   height: 56px;
@@ -174,13 +154,6 @@ section {
 }
 
 /*------section2"features"---------------------*/
-
-.features-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 120px 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -229,9 +202,6 @@ section {
   gap: 24px;
 }
 
-.container-taste-sect {
-}
-
 .taste-sect-list {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -258,7 +228,6 @@ section {
 
 .taste-title {
   margin-bottom: 8px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -268,7 +237,6 @@ section {
 }
 
 .taste-text {
-  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -278,10 +246,6 @@ section {
 }
 
 /*------section4"Our Portfolio"---------------------*/
-
-.section-port {
-  padding: 120px 0;
-}
 
 .portfolio-title {
   margin-bottom: 72px;
@@ -299,9 +263,6 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .portfolio-item {
@@ -320,13 +281,11 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 
 .card-text {
-  text-align: center;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -340,28 +299,12 @@ section {
   background: #2e2f42;
 }
 
-.container-foot {
-}
-
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
 }
 
 .footer-logo-color {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 
