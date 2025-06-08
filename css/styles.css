@@ -443,6 +443,11 @@ img {
   display: inline-block;
 }
 
+.footer-logo:hover,
+:focus {
+  background-color: #31d0aa;
+}
+
 .footer-logo-color {
   color: #f4f4fd;
 }
