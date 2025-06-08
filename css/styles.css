@@ -368,6 +368,8 @@ img {
 }
 
 .portfolio-item-image {
+  position: relative;
+  overflow: hidden;
 }
 
 .card-content {
