@@ -196,7 +196,7 @@ img {
 
 /*------section2"features"---------------------*/
 
-.features-container {
+.features-inner {
   display: flex;
   align-items: center;
   justify-content: center;
