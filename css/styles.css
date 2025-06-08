@@ -447,8 +447,8 @@ img {
   display: inline-block;
 }
 
-.footer-logo-item:hover,
-.footer-logo-item:focus {
+.footer-logo:hover,
+.footer-logo:focus {
   background-color: #31d0aa;
 }
 
