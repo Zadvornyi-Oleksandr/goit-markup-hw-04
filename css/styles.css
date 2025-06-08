@@ -419,6 +419,12 @@ img {
   background: #2e2f42;
 }
 
+.container-foot {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
