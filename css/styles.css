@@ -434,6 +434,10 @@ img {
   margin-bottom: 16px;
 }
 
+.features-icon-list {
+  gap: 16px;
+}
+
 .footer-logo-item {
   margin-right: 120px;
 }
