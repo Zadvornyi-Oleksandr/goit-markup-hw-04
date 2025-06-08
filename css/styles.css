@@ -267,6 +267,10 @@ img {
   padding: 32px 0;
 }
 
+.features-icon-taste {
+  display: flex;
+}
+
 .taste {
   margin-bottom: 72px;
   font-weight: 700;
