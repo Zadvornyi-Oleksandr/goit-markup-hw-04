@@ -269,6 +269,12 @@ img {
 
 .features-icon-taste {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.features-icon-list {
+  display: flex;
 }
 
 .taste {
