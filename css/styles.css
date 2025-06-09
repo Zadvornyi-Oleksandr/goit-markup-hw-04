@@ -89,9 +89,6 @@ img {
   color: #404bbf;
 }
 
-.header-menu-item {
-}
-
 .header-menu-link {
   display: block;
   padding: 24px 0;
@@ -246,14 +243,13 @@ img {
 }
 
 /*------sectio3Team"---------------------*/
+
 .taste-sect {
   background: #f4f4fd;
 }
 
 .container-sect-list {
   display: flex;
-}
-.taste-sect-list {
 }
 
 .taste-sect-list {
@@ -312,9 +308,6 @@ img {
   text-transform: capitalize;
 }
 
-.taste-img {
-}
-
 .taste-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -367,9 +360,6 @@ img {
 .portfolio-item-image {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio-item-image {
 }
 
 .paragraph-text {
@@ -442,9 +432,6 @@ img {
   gap: 16px;
 }
 
-.features-icon-list {
-}
-
 .footer-logo-item {
   margin-right: 120px;
 }
@@ -454,8 +441,8 @@ img {
   display: inline-block;
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
