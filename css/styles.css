@@ -434,6 +434,10 @@ img {
   margin-bottom: 16px;
 }
 
+.foot-foot {
+  gap: 16px;
+}
+
 .features-icon-list {
 }
 
