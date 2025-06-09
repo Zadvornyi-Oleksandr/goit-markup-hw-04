@@ -252,6 +252,8 @@ img {
 
 .container-sect-list {
   display: flex;
+}
+.taste-sect-list {
   gap: 24px;
 }
 
