@@ -24,6 +24,7 @@ a {
   text-decoration: none;
 }
 /*Загальны стилі*/
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -85,11 +86,8 @@ img {
   color: #404bbf;
 }
 
-.header-menu-list:hover {
-  color: #404bbf;
-}
-
 .header-menu-link {
+  color: #2e2f42;
   display: block;
   padding: 24px 0;
   font-weight: 500;
@@ -250,6 +248,7 @@ img {
 
 .container-sect-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .taste-sect-list {
@@ -416,7 +415,6 @@ img {
 .container-foot {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-content {
