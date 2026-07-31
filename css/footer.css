@@ -5,7 +5,7 @@
 
 .container-foot {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .footer-logo-item {
