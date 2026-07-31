@@ -49,7 +49,7 @@ img {
   color: #4d5ae5;
 }
 
-.visually-hidden {
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
